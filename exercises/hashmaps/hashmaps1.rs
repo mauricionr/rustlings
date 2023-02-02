@@ -10,6 +10,8 @@
 //
 // Execute `rustlings hint hashmaps1` or use the `hint` watch subcommand for a hint.
 
+use std::collections::HashMap;
+
 fn fruit_basket() -> HashMap<String, u32> {
     let mut basket = HashMap::new();
 
